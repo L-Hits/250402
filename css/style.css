@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&display=swap");
+
+* {
+  font-family: Hi Melody, sans-serif;
+  font-size: 6vw;
+}
+
+h1 {
+  background-color: hotpink;
+  color: beige;
+  font-size: 2em;
+}
+
+div {
+  margin: 20px;
+  padding: 10px;
+  border: black 5px solid;
+}
+
+div:hover {
+  margin: 20px;
+  padding: 10px;
+  border: red 5px solid;
+}
+
+div:active {
+  margin: 20px;
+  padding: 10px;
+  border: blue 5px solid;
+}
+
+div::before {
+  content: "★";
+}
+
+div::after {
+  content: "★";
+}
+
+#todolist,
+#last_li {
+  background-color: burlywood;
+  font-family: Hi Melody, sans-serif;
+}
+
+.point3 {
+  font-family: Hi Melody, sans-serif;
+}
+
+/* #last_li {
+  background-color: cornflowerblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(97, 33, 215);
+} */
+
+a {
+  color: brown;
+}
+
+/* a 태그 중 href 속성이 있는 것 */
+a[href] {
+  text-decoration: none;
+}
+
+/* target 이 "_blank"인 태그 */
+[target="_blank"] {
+  color: blue;
+}
+
+/* a 태그에 마우스를 올리면 변하게 되는 값값 */
+a:hover {
+  font-size: 1.2em;
+  color: red;
+}
+a:active {
+  color: orange;
+}
+
+a:visited {
+  color: green;
+}
+
+div > ul {
+  font-style: italic;
+}
+
+div li {
+  color: red;
+}
+
+span {
+  font-size: 0.8em;
+}
+
+span + a {
+  font-size: 0.5em;
+}
+
+button:hover{
+    font-weight: 900;
+}
+
+button:active{
+    background-color: cyan;
+    font-weight: 100;
+}
+
+input:focus{
+    color: thistle;
+}
+
+input:disabled{
+    display: none;
+}
+
+#list li:first-child {
+    font-size: 1.2em;
+}
+
+#list li:nth-child(2) {
+    color: blue;
+}
+
+#list li:last-child {
+    font-size: 1.5em;
+}
